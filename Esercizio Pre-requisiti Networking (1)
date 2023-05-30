@@ -1,8 +1,15 @@
 Esercizio Pre-requisiti Networking  (1)
+
+
 Identificare i protocolli utilizzati nel livello collegamento dati del modello ISO/OSI e descrivere brevemente le loro funzioni.
 Nel livello Data Link del modello ISO/OSI abbiamo diversi protocolli tra i quali 
+
 PPP (Point-to-Point):  protocollo utilizzato per la trasmissione di informazioni su una connessione diretta punto-punto tra due nodi di rete, è il piu affidabile tra i protocolli e può fornire crittografia e autenticazione per una maggiore sicurezza, ma non è adatto per reti di grandi dimensioni e la sicurezza dei dati dipende dalla crittografia e dall’autenticazione utilizzate.
+
 SDLC (Synchronous Data Link Protocol): è utilizzato per il trasferimento di informazioni sincrone, code-trasparent, serial-by-bit e la configurazione della connessione può essere point-to-point, multipoint o loop ed è la base di altri protocolli di livello 2.
+
 HDLC (High-Level Data Link Protocol): protocollo a riempimento di bit e usa la tecnica del bit stuffing (inserimento di zeri aggiuntivi) per evitare che le sequenze di terminazione compaiano all’interno dei frame.
+
 SLIP (Serial Line Internet Protocol): protocollo usato per stabilire connessioni dirette tra due nodi specie su connessioni seriali asincrone.
+
 LCP (Link Control Protocol): protocollo che fornisce un metodo per creare, configuraree verificare le connessioni punto-punto a livello data link.
