@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main(){
+
+        int lato,area;
+
+        printf("Inserisci la lunghezza del lato del quadrato\n");
+        scanf("%d \n",&lato);
+        area = lato*lato;
+        printf("Area del quadrato è %d\n",area);
+        return 0;
+}
+
+
+
