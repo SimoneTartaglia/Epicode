@@ -1,0 +1,25 @@
+per_quad = 0
+circonf = 0
+per_rett = 0
+pigreco = 3.14
+print ("Scegli cosa calcolare")
+x = int (input("1)Perimetro Quadrato \n2)Circonferenza Cerchio \n3)Perimetro Rettangolo\n"))
+
+if(x==1):
+	l = int (input("Inserisci la lunghezza del lato\n"))
+	per_quad = l*4
+	print ("Il perimetro del quadrato è\n")
+	print (per_quad)
+elif(x==2):
+	r = int (input("Inserisci il raggio del cerchio\n"))
+	circonf = 2*pigreco*r
+	print ("La circonferenza del cerchio è\n")
+	print (circonf)
+elif(x==3):
+	b = int (input("Inserisci la base del rettangolo\n"))
+	h = int (input("Inserisci l'altezza del rettangolo\n"))
+	per_rett = (b*2)+(h*2)
+	print ("Il perimetro del rettangolo è\n")
+	print (per_rett)
+else:
+	print ("Non hai scelto nessuna opzione\n")
