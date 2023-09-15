@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main(){
+
+        float lato;
+        float radice;
+        double pot;
+        float area;
+
+        printf("Inserisci lunghezza del lato:\n");
+        scanf("%f", &lato);
+
+        pot = lato*lato;
+        radice = sqrt(3);
+        area = (radice * pot)/4;
+
+        printf("L'area del triangolo è %f",area);
+
+
+        return 0;
+}
+
